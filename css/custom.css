@@ -1,20 +1,13 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>#index-video {
-    z-index: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 80vh;
-    width: 100%;
-    object-fit: cover;
-}
-@media only screen and (max-width: 768px) {
-    #index-video {
-        display: none;
-    }
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>@font-face {
+    font-family: 'tzy';
+    /* 字体名自定义即可 */
+    /* src: url('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2'); */
+    src: url('https://npm.elemecdn.com/ethan4116-blog/lib/font/ZhuZiAWan.ttf');
+    /* 字体文件路径 */
+    font-display: swap;
 }
 
-@media only screen and (min-width: 768px) {
-    .bg-cover {
-        background-image: none !important;
-    }
+body,
+.gitcalendar {
+    font-family: tzy !important;
 }

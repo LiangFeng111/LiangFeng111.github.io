@@ -3414,23 +3414,22 @@ h1.page-title + .tag-cloud-list {
   font-size: 30px;
 }
 #page-header.not-home-page {
-  height: 20rem;
+  height: 400px;
 }
 @media screen and (max-width: 768px) {
   #page-header.not-home-page {
-    height: 14rem !important;
+    height: 280px;
   }
 }
 #page-header #page-site-info {
   position: absolute;
-  top: 10rem;
-  padding: 0 0.5rem;
+  top: 200px;
+  padding: 0 10px;
   width: 100%;
-  z-index: 2;
 }
 @media screen and (max-width: 768px) {
   #page-header #page-site-info {
-    top: 7rem !important;
+    top: 140px;
   }
 }
 #page-header.post-bg {
@@ -3461,25 +3460,6 @@ h1.page-title + .tag-cloud-list {
   #page-header #post-info {
     bottom: 22px;
     padding: 0 22px;
-  }
-}
-#page-header.has-video {
-  position: relative;
-  height: 80vh !important;
-}
-#page-header #page-site-info {
-  top: 50% !important;
-  margin-top: -1.425em;
-}
-@media screen and (max-width: 768px) {
-  #page-header #page-site-info {
-    top: 7rem !important;
-    margin-top: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  #page-header {
-    height: 14rem !important;
   }
 }
 #page-header.not-top-img {
