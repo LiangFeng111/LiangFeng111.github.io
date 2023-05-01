@@ -1,13 +1,42 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>@font-face {
-    font-family: 'tzy';
-    /* 字体名自定义即可 */
-    /* src: url('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2'); */
-    src: url('https://npm.elemecdn.com/ethan4116-blog/lib/font/ZhuZiAWan.ttf');
-    /* 字体文件路径 */
-    font-display: swap;
+/* 页脚与头图透明 */
+#footer {
+    background: transparent !important;
+}
+#page-header {
+    background: transparent !important;
 }
 
-body,
-.gitcalendar {
-    font-family: tzy !important;
+/* 白天模式遮罩透明 */
+#footer::before {
+    background: transparent !important;
+}
+#page-header::before {
+    background: transparent !important;
+}
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before {
+    background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+    background: transparent !important;
+}
+
+@font-face {
+    /* 为载入的字体取名字(随意) */
+    font-family: 'YSHST';
+    /* 字体文件地址(相对或者绝对路径都可以) */
+    src: url(/font/优设好身体.woff2);
+    /* 定义加粗样式(加粗多少) */
+    font-weight: normal;
+    /* 定义字体样式(斜体/非斜体) */
+    font-style: normal;
+    /* 定义显示样式 */
+    font-display: block;
+}
+
+/* 翻页按钮居中 */
+#pagination {
+    width: 100%;
+    margin: auto;
 }
