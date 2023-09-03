@@ -5,12 +5,24 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2023/08/30/hello-world/"/>
-      <url>/2023/08/30/hello-world/</url>
+      <link href="/2023/09/03/hello-world/"/>
+      <url>/2023/09/03/hello-world/</url>
       
         <content type="html"><![CDATA[<h1 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h1><div align=center class="aspect-ratio">    <iframe src="https://player.bilibili.com/player.html?aid=474023258&&page=1&as_wide=1&high_quality=1&danmaku=0"     scrolling="no"     border="0"     frameborder="no"     framespacing="0"     high_quality=1    danmaku=1     allowfullscreen="true">     </iframe></div>]]></content>
       
       
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
       
     </entry>
     
